@@ -1,0 +1,26 @@
+{
+  "name": "server-09-diep",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "nodemon ./bin/www"
+  },
+  "dependencies": {
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "ejs": "~2.6.1",
+    "express": "~4.16.1",
+    "http-errors": "~1.6.3",
+    "morgan": "~1.9.1",
+    "mysql": "^2.17.1",
+    "mysql2": "^1.7.0",
+    "pg": "^7.12.1",
+    "pg-hstore": "^2.3.3",
+    "sequelize": "^5.18.4",
+    "sequelize-msnodesqlv8": "^0.2.6-beta.8",
+    "tedious": "^6.3.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.2"
+  }
+}

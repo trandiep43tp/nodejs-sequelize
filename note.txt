@@ -1,0 +1,9 @@
+sử dung sequelize để kết nối cơ sở dữ liệu
+npm install --save sequelize
+npm install --save mysql2
+
+
+//cách tạo 1 tài khoản ở  sql server management 
+mở sql server management -> tab Security -> click right -> new login ->
+-> đặt tên ở ô Login Name -> check vào ô Sql server Auth... -> đặt pass -> check bỏ ô User must change pass at next login
+Nếu không bỏ nó sẽ bắt đổi pass khi lần đầu đăng nhập. -> nhấn tab User Mapping -> chọn csdl cần cho tk này -> ok
